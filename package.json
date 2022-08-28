@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraping.ts",
+  "scripts": {
+    "scrape": "node ./dist/scraping.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "playwright": "^1.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "typescript": "^4.8.2"
+  }
+}
